@@ -1,0 +1,16 @@
+/* .btnAddAberto
+{
+  --corFundo: var(--corComplementarMaisEscura) !important;
+  transform:rotate(45deg);
+}
+
+.formAberto
+{
+  max-height:100vh;
+}
+
+.formFechado
+{
+  max-height: 0;
+}
+ */

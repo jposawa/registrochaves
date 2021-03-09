@@ -1,0 +1,47 @@
+.menu
+{
+  /* width:100%; */
+  display:flex;
+  justify-content: space-evenly;
+  background:var(--corPrincipalEscura);
+}
+
+.menu>li
+{
+  width:20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size:10pt;
+  cursor:pointer;
+  /* background:#333; */
+}
+
+.itemMenu:hover, .itemMenu:focus
+{
+  box-shadow:0 0 20rem rgba(50,50,50,0.5) inset !important;
+}
+
+.itemMenu span
+{
+  transition: all 0.3s;
+  color:#ddd;
+}
+
+.itemMenu span:first-child
+{
+  font-size:14pt;
+  transition:none;
+}
+
+.itemMenu:hover span
+{
+  color:#eee;
+}
+
+.itemAtual
+{
+  box-shadow:0 0 20rem rgba(100,100,100,0.7) inset;
+  color:#fff;
+}

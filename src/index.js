@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Principal from './principal';
+import { ControleProvider } from './hooks/controle';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ControleProvider>
+      <Principal />
+    </ControleProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
