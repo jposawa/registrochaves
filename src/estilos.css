@@ -1,0 +1,75 @@
+button
+{
+  cursor:pointer;
+  border:1px solid var(--corFundo);
+  padding:1%;
+  font-size:12pt;
+  background: var(--corFundo);
+  color: var(--corTexto);
+  box-shadow: 0 0 20rem var(--corSombra) inset;
+  outline:none;
+}
+
+.temaPrincipal
+{
+  --corPrincipal: #336799;
+  --corPrincipalClara: #4E7EAB;
+  --corPrincipalMaisClara: #7BA3CA;
+  --corPrincipalEscura: #19538A;
+  --corPrincipalMaisEscura: #0E3E6C;
+  --corSecundaria1: #573AA2;
+  --corSecundaria1Clara: #7056B4;
+  --corSecundaria1MaisClara: #9782D0;
+  --corSecundaria1Escura: #3F1F92;
+  --corSecundaria1MaisEscura: #2D1372;
+  --corSecundaria2: #33B449;
+  --corSecundaria2Clara: #52C767;
+  --corSecundaria2MaisClara: #7FDC8F;
+  --corSecundaria2Escura: #13A32C;
+  --corSecundaria2MaisEscura: #087F1D;
+  --corComplementar: #ECA742;
+  --corComplementarClara: #FFC269;
+  --corComplementarMaisClara: #FFD393;
+  --corComplementarEscura: #D58819;
+  --corComplementarMaisEscura: #A6670A;
+}
+
+.corpoSite
+{
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  display:flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: end;
+  background: #eee;
+}
+
+@media screen and (min-width:1000px)
+{
+  .corpoSite{
+    flex-direction: column-reverse;
+  }
+}
+
+.corpoPagina
+{
+  /* position:absolute; */
+  width:100%;
+  /* height:clamp(519px, 90%, 760px); */
+  height:100%;
+  overflow-y:auto;
+  padding:1% 2%;
+  /* border:1px solid #00f; */
+}
+
+.slotMenu
+{
+  /* position:absolute; */
+  width:100%;
+  /* height:var(--alturaMenu); */
+  bottom:0;
+}
